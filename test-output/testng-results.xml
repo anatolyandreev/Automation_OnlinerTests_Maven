@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19109" started-at="2018-04-19T23:35:07Z" finished-at="2018-04-19T23:35:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19109" started-at="2018-04-19T23:35:07Z" finished-at="2018-04-19T23:35:26Z">
+      <class name="by.htp.onliner.NewTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:by.htp.onliner.NewTest@7f9a81e8]" name="testSetup" is-config="true" duration-ms="4807" started-at="2018-04-20T02:35:07Z" finished-at="2018-04-20T02:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="checkIfExecutorsArePresent()[pri:0, instance:by.htp.onliner.NewTest@7f9a81e8]" name="checkIfExecutorsArePresent" duration-ms="6613" started-at="2018-04-20T02:35:12Z" finished-at="2018-04-20T02:35:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfExecutorsArePresent -->
+        <test-method status="PASS" signature="checkExecutorsForSpecificService()[pri:0, instance:by.htp.onliner.NewTest@7f9a81e8]" name="checkExecutorsForSpecificService" duration-ms="2505" started-at="2018-04-20T02:35:18Z" finished-at="2018-04-20T02:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExecutorsForSpecificService -->
+        <test-method status="PASS" signature="checkForValidExecutor()[pri:0, instance:by.htp.onliner.NewTest@7f9a81e8]" name="checkForValidExecutor" duration-ms="4477" started-at="2018-04-20T02:35:21Z" finished-at="2018-04-20T02:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForValidExecutor -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:by.htp.onliner.NewTest@7f9a81e8]" name="afterTest" is-config="true" duration-ms="687" started-at="2018-04-20T02:35:25Z" finished-at="2018-04-20T02:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- by.htp.onliner.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

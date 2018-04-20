@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="dependencySuite">
+	<test name="Test1">
+		<groups>
+			<dependencies>
+				<group name="b" depends-on="a" />
+				<group name="c" depends-on="b" />
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="by.htp.onliner.OnlinerTest" />
+		</classes>
+	</test>
+</suite>

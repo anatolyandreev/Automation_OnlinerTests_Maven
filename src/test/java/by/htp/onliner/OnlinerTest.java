@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import by.htp.onliner.steps.Steps;
 
-public class NewTest {
+public class OnlinerTest {
 
 	private final String serviceType = "Компьютерная помощь";
 	private final String service = "Установка и настройка ПО";
@@ -33,7 +33,7 @@ public class NewTest {
 		steps.closeDriver();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1, groups = {"a"})
 	public void checkIfExecutorsArePresent() {
 		steps.openOnlinerMainPage();
 		steps.navigateToServicesPageViaPanel();
@@ -42,7 +42,7 @@ public class NewTest {
 		assertFalse(steps.isExecutorsListEmpty(), "Executors list is empty, i.e. no executors in Minsk");
 	}
 
-	@Test(priority=2)
+	@Test(priority=2, groups = {"b"})
 	public void checkExecutorsForSpecificService() throws InterruptedException {
 		Thread.sleep(2000);
 		steps.selectService(serviceType, service);
@@ -51,7 +51,7 @@ public class NewTest {
 						+ " and service " + service);
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3, groups = {"c"})
 	public void checkForValidExecutor(){
 		assertTrue(steps.isExecutorValid(minOrdersNumber, minFeedbackNumber));
 	}

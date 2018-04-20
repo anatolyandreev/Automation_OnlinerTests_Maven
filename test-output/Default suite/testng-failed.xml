@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="by.htp.onliner.NewTest">
+      <class name="by.htp.onliner.OnlinerTest">
         <methods>
           <include name="checkExecutorsForSpecificService"/>
           <include name="testSetup"/>
+          <include name="checkIfExecutorsArePresent"/>
           <include name="afterTest"/>
+          <include name="checkForValidExecutor"/>
         </methods>
-      </class> <!-- by.htp.onliner.NewTest -->
+      </class> <!-- by.htp.onliner.OnlinerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
